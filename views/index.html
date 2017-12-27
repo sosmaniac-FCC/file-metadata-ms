@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>file metadata microservice</title>
+    <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <p>
+      The following submission field posts file data to... 
+      <a href="https://file-metadata-ser.glitch.me/api/files">https://file-metadata-ser.glitch.me/api/files</a>
+    </p>
+    <form id="formData" name="formData" enctype="multipart/form-data" method="post" action="https://file-metadata-ser.glitch.me/api/files">
+      <input type="file" id="formFile" name="formFile" />
+      <input type="submit" value="Upload" />
+    </form>
+    <p id="input-field">
+      <!-- managed by client.js | id="input-field" -->
+    </p>
+    <script type="text/javascript" src="/client.js"></script>
+  </body>
+</html>

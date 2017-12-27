@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class workspace {
+	
+	boolean turn = false;
+	
+	public static void main (String[] args) {
+		turn = !turn;
+		int selection = Integer.parseInt(JOptionPane.showInputDialog(turn ? "Alice" : "Bob" + ", please pick a stone number."));
+		determineWinner(selection);
+	}
+	
+	class determineWinner(i) {
+		if((i + 1) % 2 == 1) {
+			return "Alice";
+		} else {
+			return "Bob";
+		}
+	}
+	
+}

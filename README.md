@@ -1,2 +1,5 @@
-# file-metadata-ms
-Stores file data, displays byte size metadata
+File Metadate Microservice
+
+Multer for the win!
+
+Coded by John Simmons
