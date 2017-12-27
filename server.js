@@ -40,7 +40,7 @@ app.get("/api/files", (req, res) => {
     coll.find({}).toArray((err, docs) => {
       if (err) console.error(err);
       
-      res.send(docs);
+      res.send(docs.reverse());
       db.close();
     });
   });
